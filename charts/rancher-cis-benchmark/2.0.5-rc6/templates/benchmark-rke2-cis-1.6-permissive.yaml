@@ -6,3 +6,4 @@ metadata:
 spec:
   clusterProvider: rke2
   minKubernetesVersion: "1.20.5"
+  maxKubernetesVersion: "1.21.0"
