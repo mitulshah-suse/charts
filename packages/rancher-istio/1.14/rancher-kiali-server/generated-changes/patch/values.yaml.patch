@@ -15,7 +15,7 @@
      spec: {}
    image_digest: "" # use "sha256" if image_version is a sha256 hash (do NOT prefix this value with a "@")
 -  image_name: quay.io/kiali/kiali
-+  repository: rancher/mirrored-kiali-kiali
++  repository: quay.io/kiali/kiali
    image_pull_policy: "Always"
    image_pull_secrets: []
 -  image_version: v1.55.0 # version like "v1.39" (see: https://quay.io/repository/kiali/kiali?tab=tags) or a digest hash
